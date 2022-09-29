@@ -8,9 +8,6 @@ const Navber = () => {
                 <img src={logo} alt="" />
                 <h2>Grow Garden</h2>
             </div>
-            <div>
-                <a href="">Blog</a>
-            </div>
         </nav>
     );
 };

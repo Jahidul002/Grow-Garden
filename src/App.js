@@ -1,4 +1,3 @@
-import Blog from './blog/Blog';
 import Display from './Component/Display/Display';
 import Navber from './Component/Navber/Navber';
 
@@ -7,7 +6,6 @@ function App() {
     <div>
       <Navber></Navber>
       <Display></Display>
-      <Blog></Blog>
     </div>
   );
 }

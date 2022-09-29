@@ -1,9 +1,0 @@
-.data-cont {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-}
-
-.the-data {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}

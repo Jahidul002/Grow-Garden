@@ -1,9 +1,0 @@
-.data-img {
-    width: 250px;
-    border-radius: 10px;
-}
-
-.data-info {
-    display: flex;
-    flex-direction: column;
-}

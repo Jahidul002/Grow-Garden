@@ -6,19 +6,20 @@
 .cart {
     box-shadow: 5px 5px 10px grey;
     border-radius: 10px;
+    position: relative;
+    height: auto;
 }
 
 .color-time {
     color: red;
+
 }
 
-.cart a {
-    text-decoration: none;
-    color: black;
+.btn {
+    background-color: #ff4400d8;
+    border-radius: 10px;
 }
 
-.mk-btn h3 span {
-    background-color: chocolate;
-    padding: 10px 20px;
-    border-radius: 4px;
+.btn:hover {
+    background-color: #ff66008c;
 }

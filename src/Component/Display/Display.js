@@ -4,6 +4,7 @@ import TheData from '../The Data/TheData';
 import './Display.css'
 const Display = () => {
     const [alldata, setData] = useState([])
+    const [cart, setCart] = useState([])
 
     useEffect(() => {
         fetch('fakeDB.json')
@@ -11,18 +12,28 @@ const Display = () => {
             .then(data => setData(data))
     }, [])
 
+
+    const addToCart = (theData) => {
+        console.log(theData);
+        const newCart = [...cart, theData]
+        setCart(newCart)
+    }
+
+
     return (
         <div className='container'>
             <div className='data-cart'>
                 {
-                    alldata.map(theData => <TheData key={theData.id} data={theData}></TheData>)
+                    alldata.map(theData => <TheData
+                        key={theData.id}
+                        data={theData}
+                        addToCart={addToCart}
+                    ></TheData>)
                 }
-                {
-                    alldata.map(theData => console.log(theData))
-                }
+
             </div>
             <div className='info-cart'>
-                <SideItems></SideItems>
+                <SideItems cartData={cart.length}></SideItems>
             </div>
         </div>
     );

@@ -1,7 +1,9 @@
 import React from 'react';
 import myPic from '../../img/received_775257023078460.jpeg'
 import './SideItems.css'
-const SideItems = () => {
+const SideItems = (props) => {
+    console.log(props);
+    const { cartData } = props
     return (
         <div>
             <div className='personal'>
@@ -26,6 +28,20 @@ const SideItems = () => {
                         <h4>21 Years</h4>
                         <p>Age</p>
                     </div>
+                </div>
+                <div>
+                    <h3>Add A break</h3>
+                    <div className='sec-btn'>
+                        <button>10s</button>
+                        <button>20s</button>
+                        <button>30s</button>
+                        <button>40s</button>
+                        <button>60s</button>
+                    </div>
+                </div>
+                <div>
+                    <h3>Activity Details</h3>
+                    <div>Total time:{cartData}</div>
                 </div>
             </div>
         </div>

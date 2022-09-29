@@ -34,3 +34,18 @@
     background-color: #507fff98;
     border-radius: 10px;
 }
+
+.sec-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-btn button {
+    color: wheat;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+.sec-btn button:hover {
+    background-color: brown;
+}

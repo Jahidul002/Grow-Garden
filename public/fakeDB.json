@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "Name": "Spade",
+        "img": "https://platthillnursery.com/wp-content/uploads/2021/05/platt-hill-basic-garden-maintenance-person-digging-in-garden-bed.jpg",
+        "time": 20,
+        "info": "Clean The Area,you are planting;loosen & turn the soil over"
+    },
+    {
+        "id": 2,
+        "Name": "Soil",
+        "img": "https://localexpert.com.au/wp-content/uploads/2022/01/Heading-Image-1.jpg",
+        "time": 28,
+        "info": "Add additional soil;preferable organic soil to your garden,it make richer soil"
+    },
+    {
+        "id": 3,
+        "Name": "Seed",
+        "img": "https://images.food52.com/5PlU4OEu5thZAf2d5UhZf-Ufy0U=/fit-in/1200x1200/2a082d82-b630-40f2-9b17-c22779ff4113--2014-0227_hudson-valley-seed-library_hudson-valley-seed-art-packs_mid-013.jpg",
+        "time": 40,
+        "info": "Carefully plant your seeds or plant start imto soil"
+    },
+    {
+        "id": 4,
+        "Name": "Watering",
+        "img": "https://thisismygarden.com/wp-content/uploads/2019/05/Watering-The-Vegetable-Garden.jpg",
+        "time": 15,
+        "info": "Plants need the right amount of water--not too much or too lottle.wait untile the soil is dry to water"
+    },
+    {
+        "id": 5,
+        "Name": "Sun And Light",
+        "img": "https://hips.hearstapps.com/hmg-prod/images/what-to-plant-in-october-1628779268.jpg?crop=1xw:0.75xh;center,top&resize=1200:*",
+        "time": 24,
+        "info": "Grow your plants in a location so they get the sunLight they need"
+    },
+    {
+        "id": 6,
+        "Name": "Pesticides",
+        "img": "https://lmg-labmanager.s3.amazonaws.com/assets/articleNo/26621/aImg/48961/common-pesticide-may-contribute-to-global-obesity-crisis-l.jpg",
+        "time": 10,
+        "info": "Controlling garden pests is important but only use an organic pest"
+    },
+    {
+        "id": 7,
+        "Name": "Mulching",
+        "img": "https://gray-witn-prod.cdn.arcpublishing.com/resizer/CexMgTlqUtXM5clsVslLHUXe4NU=/1200x600/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/T2JQM7QFSJGA7GZN4BMSMPU3IY.png",
+        "time": 25,
+        "info": "Add mulch to the soil To improve soil moisture fertility and health of soil"
+    },
+    {
+        "id": 8,
+        "Name": "Harvest",
+        "img": "https://www.jkpi.org/wp-content/uploads/2021/10/kitchen-garden-1.png",
+        "time": 60,
+        "info": "Harvest your fruits & veggies is exiting for your family & especially your kids"
+    },
+    {
+        "id": 9,
+        "Name": "Tool",
+        "img": "https://i.pinimg.com/originals/d0/76/e5/d076e5b74c08573c46ffcd134d2671f1.jpg",
+        "time": 0,
+        "info": "This is very necessary for gardening & for complete all above the work."
+    }
+]

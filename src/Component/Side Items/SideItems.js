@@ -4,11 +4,17 @@ import './SideItems.css'
 const SideItems = (props) => {
     // console.log(props);
     const { cartData } = props
-
+    const [brkTime, setBrkTime] = useState(0)
     let total = 0
     for (const data of cartData) {
         // console.log(data);
         total = total + data.time
+    }
+
+    const handleBrk = (e) => {
+        const time = e.target.outerText
+        setBrkTime(time)
+        console.log(time);
     }
 
     return (
@@ -39,17 +45,17 @@ const SideItems = (props) => {
                 <div>
                     <h3>Add A break</h3>
                     <div className='sec-btn'>
-                        <button>10</button>
-                        <button>20</button>
-                        <button>30</button>
-                        <button>40</button>
-                        <button>60</button>
+                        <button onClick={(e) => handleBrk(e)}>10</button>
+                        <button onClick={(e) => handleBrk(e)}>20</button>
+                        <button onClick={(e) => handleBrk(e)}>30</button>
+                        <button onClick={(e) => handleBrk(e)}>40</button>
+                        <button onClick={(e) => handleBrk(e)}>60</button>
                     </div>
                 </div>
                 <div>
                     <h3>Activity Details</h3>
                     <div>Total time:<span className='total-value'>{total}</span> Minute</div>
-                    <div>Break time:<span className='total-value'></span> Minute</div>
+                    <div>Break time:<span className='total-value'>{brkTime}</span> Minute</div>
                 </div>
             </div>
         </div>

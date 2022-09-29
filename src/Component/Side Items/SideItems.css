@@ -1,0 +1,36 @@
+.personal {
+    margin-top: 20px;
+}
+
+.personal img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.p-info {
+    display: flex;
+}
+
+.info-div {
+    display: flex;
+}
+
+.info-div div {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.w8 {
+    background-color: #ff7f5098;
+    border-radius: 10px;
+}
+
+.h8 {
+    background-color: #50ffcb98;
+    border-radius: 10px;
+}
+
+.age {
+    background-color: #507fff98;
+    border-radius: 10px;
+}

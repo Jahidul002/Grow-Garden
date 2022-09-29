@@ -1,10 +1,11 @@
-import AllData from './Component/AllData/AllData';
+import Display from './Component/Display/Display';
+import Navber from './Component/Navber/Navber';
 
 function App() {
   return (
-    <div className="App">
-      <h1>start</h1>
-      <AllData></AllData>
+    <div>
+      <Navber></Navber>
+      <Display></Display>
     </div>
   );
 }

@@ -73,3 +73,13 @@
         font-size: 12px;
     }
 }
+
+.active-btn {
+    color: black;
+    background-color: rgba(0, 0, 139, 0.432);
+    border-radius: 10px;
+}
+
+.active-btn:hover {
+    background-color: rgba(0, 0, 139, 0.699);
+}

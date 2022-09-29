@@ -16,7 +16,6 @@ const SideItems = (props) => {
         setBrkTime(time)
         console.log(time);
     }
-
     return (
         <div className='sidebar'>
             <div className='personal'>
@@ -57,6 +56,9 @@ const SideItems = (props) => {
                     <div>Total time:<span className='total-value'>{total}</span> Minute</div>
                     <div>Break time:<span className='total-value'>{brkTime}</span> Minute</div>
                 </div>
+                <button className='active-btn'>
+                    <p>Activity Complete</p>
+                </button>
             </div>
         </div>
     );

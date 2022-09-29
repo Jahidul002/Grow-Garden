@@ -1,11 +1,18 @@
-import React from 'react';
+import { useState } from 'react';
 import myPic from '../../img/received_775257023078460.jpeg'
 import './SideItems.css'
 const SideItems = (props) => {
-    console.log(props);
+    // console.log(props);
     const { cartData } = props
+
+    let total = 0
+    for (const data of cartData) {
+        // console.log(data);
+        total = total + data.time
+    }
+
     return (
-        <div>
+        <div className='sidebar'>
             <div className='personal'>
                 <div className='p-info'>
                     <img src={myPic} alt="" />
@@ -32,16 +39,17 @@ const SideItems = (props) => {
                 <div>
                     <h3>Add A break</h3>
                     <div className='sec-btn'>
-                        <button>10s</button>
-                        <button>20s</button>
-                        <button>30s</button>
-                        <button>40s</button>
-                        <button>60s</button>
+                        <button>10</button>
+                        <button>20</button>
+                        <button>30</button>
+                        <button>40</button>
+                        <button>60</button>
                     </div>
                 </div>
                 <div>
                     <h3>Activity Details</h3>
-                    <div>Total time:{cartData}</div>
+                    <div>Total time:<span className='total-value'>{total}</span> Minute</div>
+                    <div>Break time:<span className='total-value'></span> Minute</div>
                 </div>
             </div>
         </div>

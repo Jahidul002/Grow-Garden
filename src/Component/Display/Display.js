@@ -3,8 +3,8 @@ import SideItems from '../Side Items/SideItems';
 import TheData from '../The Data/TheData';
 import './Display.css'
 const Display = () => {
-    const [alldata, setData] = useState([])
-    const [cart, setCart] = useState([])
+    const [alldata, setData] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('fakeDB.json')
@@ -14,7 +14,7 @@ const Display = () => {
 
 
     const addToCart = (theData) => {
-        console.log(theData);
+        // console.log(theData);
         const newCart = [...cart, theData]
         setCart(newCart)
     }
@@ -33,7 +33,7 @@ const Display = () => {
 
             </div>
             <div className='info-cart'>
-                <SideItems cartData={cart.length}></SideItems>
+                <SideItems cartData={cart}></SideItems>
             </div>
         </div>
     );

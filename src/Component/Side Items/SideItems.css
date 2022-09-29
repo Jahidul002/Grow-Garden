@@ -49,3 +49,27 @@
 .sec-btn button:hover {
     background-color: brown;
 }
+
+.sidebar {
+    position: sticky;
+    top: 0px;
+}
+
+.total-value {
+    color: red;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .p-info {
+        display: flex;
+    }
+
+    .p-info h6 {
+        font-size: 16px;
+    }
+
+    .p-info p {
+        font-size: 12px;
+    }
+}

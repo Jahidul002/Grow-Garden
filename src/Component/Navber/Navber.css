@@ -5,6 +5,30 @@
     align-items: center;
 }
 
+.logo {
+    display: flex;
+}
+
 .navber img {
     width: 150px;
+}
+
+.navber h2 {
+    color: rgb(5, 99, 5);
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navber a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 2%;
+    font-weight: 600;
+    color: black;
+    background-color: aqua;
+    padding: 4px 12px;
+    border-radius: 5px;
 }
